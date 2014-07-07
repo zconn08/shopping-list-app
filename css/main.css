@@ -27,7 +27,7 @@
 	width: 350px;
 	height: 50px;
 }
-.add_item_input {
+#add_item_input {
 	height: 22px;
 	width: 250px;
 	margin-left: 30px;
@@ -61,16 +61,12 @@ li {
 	height: 25px;
 	width: 300px;
 	border-radius: 8px;
-	margin-top: 8px; 
+	margin-top: 8px;
+	background-color: #459DBF; 
 }
 
 .completed {
 	text-decoration: line-through;
-	color:#666666;
-}
-
-.incomplete {
-	background-color: #459DBF;
 }
 
 .checkbox {
