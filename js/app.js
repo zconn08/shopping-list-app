@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var textbox = document.getElementById("add_item_input");
 		var textval = textbox.value;
 		if (textval === "") {
-			alert("Enter text to add your item");
+			alert("Please enter the name of an item to add it to your shopping list");
 		} else {
 			$('<li class="item"></li>').appendTo(".list_container").html('<div class="checkbox unchecked"></div><span class="item_text">'+ textval + '</span><div class="delete"></div>');
 		}
