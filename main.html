@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 </head>
 <body onload="document.getElementById('add_item_input').focus()">
 	<div class="main_container">
@@ -18,7 +19,7 @@
 			<button type="submit" class="add_item_button">
 		</div>
 		<div class="item_list">
-			<ul class="list_container">
+			<ul id="list_container">
 				<li class="item">
 					<div class="checkbox unchecked"></div>
 					<span class="item_text">Milk</span>
