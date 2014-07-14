@@ -17,7 +17,7 @@ $(document).ready(function(){
 	});
 
 	//Remove an item
-	$("#list_container").on("click",".delete",function(e){
+	$(".delete").click(function(e){
 		$(this).parent().remove();
 	});
 
